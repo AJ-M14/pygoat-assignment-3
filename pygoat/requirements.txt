@@ -1,14 +1,18 @@
 asgiref==3.6.0
-Django==4.1.7
+Django==4.2.16
 pytz==2020.1
-sqlparse==0.3.1
+sqlparse==0.5.0
 php-wsgi
-pyyaml==5.1
+pyyaml==5.4
 django-crispy-forms==1.12.0
 gunicorn
 django-heroku==0.3.1
 whitenoise
-django-allauth==0.52.0
-Jinja2==2.7.2
+django-allauth==0.63.6
+Jinja2==3.1.4
 python-etcd==0.4.5
-urllib3==1.26.9
+urllib3==1.26.19
+dnspython>=2.6.1 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
